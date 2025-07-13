@@ -40,7 +40,7 @@ This is a Flutter-based mobile application developed as part of the BDCC (Big Da
 1. Clone the repo
    ```bash
    git clone https://github.com/OTH-BD/flutter-app.git
-   cd demo_app_2
+   cd flutter-app
    ```
 
 2. Install dependencies
