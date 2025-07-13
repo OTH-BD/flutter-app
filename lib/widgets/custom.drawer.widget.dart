@@ -63,7 +63,7 @@ class MyCustomDrawer extends StatelessWidget {
 
             MyDrawerItem(
               title: "Gallery",
-              itemIcon: Icon(Icons.contacts),
+              itemIcon: Icon(Icons.browse_gallery),
               handler: (){
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/gallery");
@@ -77,7 +77,7 @@ class MyCustomDrawer extends StatelessWidget {
 
             MyDrawerItem(
               title: "Meteo",
-              itemIcon: Icon(Icons.contacts),
+              itemIcon: Icon(Icons.ac_unit_sharp),
               handler: (){
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/meteo");

@@ -19,7 +19,7 @@ class _CounterPageState extends State<CounterPage> {
         backgroundColor: Theme.of(context).primaryColor,
       ),
       body: Center(
-        child: Text("Counter Value => $counter", style: Theme.of(context).textTheme.displayMedium,),
+        child: Text("Counter Value => $counter", style: Theme.of(context).textTheme.bodyLarge,),
       ),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.end,
